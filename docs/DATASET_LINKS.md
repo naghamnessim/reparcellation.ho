@@ -11,5 +11,5 @@
 - **Link:** [https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Atlases](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Atlases)
 - **Description:** Cortical and subcortical probabilistic atlas used for ROI parcellation.
 - **NOTE:** Instead of downloading FSL, you can directly download the ATLAS file and HTML label file from below:
-https://git.fmrib.ox.ac.uk/fsl/data_atlases/-/blob/master/HarvardOxford/HarvardOxford-cort-maxprob-thr25-2mm.nii.gz
-https://git.fmrib.ox.ac.uk/fsl/data_atlases/-/blob/master/HarvardOxford-Cortical.xml
+[https://git.fmrib.ox.ac.uk/fsl/data_atlases/-/blob/master/HarvardOxford/HarvardOxford-cort-maxprob-thr25-2mm.nii.gz]
+[https://git.fmrib.ox.ac.uk/fsl/data_atlases/-/blob/master/HarvardOxford-Cortical.xml]
