@@ -9,16 +9,17 @@ atlas-based projection, and ROI-level functional connectivity analysis.
 
 ## Project Structure
 reparcellation.ho/
-    code/
-        preprocessing/       # Slice timing, motion correction, skull stripping
-        projection/          # Normalization, warping, atlas projection
-        analysis/            # ROI time series extraction, functional connectivity
-        MainPipeline.mlx     # Main MATLAB Live Script
-    docs/
-        DATASET_LINKS.md
-        PRESENTATION/
-        VIDEO_LINK.md
-    README.md
+├─ code/
+│  ├─ preprocessing/
+│  ├─ projection/
+│  ├─ analysis/
+│  ├─ MainPipeline.mlx/
+├─ docs/
+│  ├─ DATASET_LINKS.md
+│  ├─ VIDEO_LINK.md
+│  ├─ PRESENTATION/
+├─ README.md
+
 ---
 
 ## Pipeline Overview
