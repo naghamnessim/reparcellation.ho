@@ -8,17 +8,17 @@ atlas-based projection, and ROI-level functional connectivity analysis.
 ---
 
 ## Project Structure
-reparcellation.ho/
-├─ code/
-│  ├─ preprocessing/
-│  ├─ projection/
-│  ├─ analysis/
-│  ├─ MainPipeline.mlx/
-├─ docs/
-│  ├─ DATASET_LINKS.md
-│  ├─ VIDEO_LINK.md
-│  ├─ PRESENTATION/
-├─ README.md
+**reparcellation.ho/**
+1. code/
+- preprocessing/
+- projection/
+- analysis/
+- MainPipeline.mlx/
+2. docs/
+- DATASET_LINKS.md
+- VIDEO_LINK.md
+- PRESENTATION/
+3. README.md
 
 ---
 
@@ -59,9 +59,6 @@ The complete workflow performs:
    Download **ds000224 (version 00002)** from OpenNeuro:  
    [https://openneuro.org/datasets/ds000224/versions/00002](https://openneuro.org/datasets/ds000224/versions/00002)
 
-   Place it inside your project directory:
-reparcellation.ho/
-├── ds000224-download/
-└── code/
+   Place it inside your project directory.
 
 2. **Run the Pipeline as illustrated in the video demo**
