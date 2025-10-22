@@ -15,6 +15,8 @@ function [user_path, base_path, func_nii, t1_nii, t1_nii2, ho_gz, json_path] = s
 %   Interactive selector that gathers all paths needed for the pipeline:
 %   (1) user/session root, (2) dataset base, (3) EPI (functional), (4) two T1 runs,
 %   (5) Harvard–Oxford atlas, and (6) the EPI’s BIDS JSON sidecar. 
+% Author: Nagham Nessim
+% University of Geneva, 2025
 
     % --- USER (start at OS home) ---                                           
     if ispc, home_dir = getenv('USERPROFILE'); else, home_dir = getenv('HOME'); end 
@@ -81,3 +83,4 @@ function [user_path, base_path, func_nii, t1_nii, t1_nii2, ho_gz, json_path] = s
         json_path = fullfile(jpath, jfile);                                         
     end
 end
+
