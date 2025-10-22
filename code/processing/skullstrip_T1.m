@@ -17,10 +17,8 @@ function [mean_t1_stripped, brain_mask_path] = skullstrip_T1(t1_path_1, t1_path_
 %   derive a robust intracranial mask from GM/WM/CSF, apply it to the (bias-corrected) mean
 %   of two T1 runs, and generate QC figures.
 %
-% Reference:
-%   - Unified segmentation (bias correction + MoG + priors): Ashburner & Friston (2005), NeuroImage 26:839–851.
-%   - Skull stripping rationale & QC: Smith (2002), Hum Brain Mapp 17:143–155 (BET); Esteban et al. (2017), PLoS ONE 12:e0184661 (MRIQC).
-%   - SNR improvement by averaging: Edelstein et al. (1986), Magn Reson Med 3:604–618 (SNR ∝ √N averaging across repeats).
+% Author: Nagham Nessim
+% University of Geneva, 2025
 
 
 p = inputParser;                                                                     
@@ -221,3 +219,4 @@ catch ME
     warning(ME.identifier,'Step 2 comparison figure not saved: %s', ME.message);
 end
 end
+
