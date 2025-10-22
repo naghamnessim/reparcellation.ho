@@ -18,6 +18,8 @@ function [roi_pair_table] = report_high_fc_pairs( ...
 %   Identify highly correlated ROI pairs using a simple threshold:
 %   r ≥ mean(r_offdiag) + k_std·std(r_offdiag). Maps FC indices to HO atlas labels
 %   (via XML) and returns a table, optionally saved as CSV.
+% Author: Nagham Nessim
+% University of Geneva, 2025
 
 p = inputParser;
 addParameter(p,'SaveFigures',false,@islogical);
@@ -121,3 +123,4 @@ catch ME
 end
 
 end
+
