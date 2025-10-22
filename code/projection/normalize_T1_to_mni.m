@@ -12,6 +12,9 @@ function [y_field_path, iy_field_path] = normalize_T1_to_mni(mean_t1_stripped_pa
 %   forward (y_) and inverse (iy_) fields so it's possible to move images to MNI space or bring atlas
 %   labels into subject space later with a single resampling.
 %
+% Author: Nagham Nessim
+% University of Geneva, 2025
+
 
 spm('defaults', 'FMRI');
 spm_jobman('initcfg');
@@ -48,3 +51,4 @@ y_field_path = fullfile(p, ['y_' name '.nii']);                                 
 iy_field_path = fullfile(p, ['iy_' name '.nii']);                                      % Inverse deformation field file
 
 end
+
