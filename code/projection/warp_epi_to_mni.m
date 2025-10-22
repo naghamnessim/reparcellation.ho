@@ -12,6 +12,11 @@ function [warped_epi_path, rT1_on_wEPI] = warp_epi_to_mni(epi_stripped_path, mea
 %   (1) Apply the **forward nonlinear warp** (native→MNI) to the full 4D EPI and write at 2 mm,
 %   (2) Warp the T1 to MNI and **reslice it onto the exact wEPI sampling grid** for 1:1 overlays.
 %
+%
+% Author: Nagham Nessim
+% University of Geneva, 2025
+
+
     % Normalize inputs & check for files' existence
     epi_stripped_path = char(epi_stripped_path);
     mean_t1_stripped  = char(mean_t1_stripped);
@@ -81,3 +86,4 @@ function [warped_epi_path, rT1_on_wEPI] = warp_epi_to_mni(epi_stripped_path, mea
     rT1_on_wEPI = fullfile(pT, ['rEPI_w' nameT '.nii']);  % Matches wEPI affine matrix exactly. Perfect for overlays & voxelwise compare.
     assert(isfile(rT1_on_wEPI), 'Resliced T1 (on wEPI grid) not created: %s', rT1_on_wEPI);
 end
+
