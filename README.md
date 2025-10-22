@@ -8,7 +8,6 @@ atlas-based projection, and ROI-level functional connectivity analysis.
 ---
 
 ## Project Structure
-.
 ├── reparcellation.ho/
 ├── │
 ├── ├── code/
