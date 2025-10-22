@@ -8,7 +8,7 @@ These videos demonstrates how to run the full MATLAB pipeline for the re-parcell
 
 | Description | Link |
 |--------------|------|
-| Full pipeline walkthrough (preprocessing → projection → analysis) | [Watch the demo on One Drive]([https://your-link-here](https://unigeit-my.sharepoint.com/:f:/g/personal/s7200337_studenti_unige_it/Elfhpmds5W5Lr82IdOkHvSMBx_1QOjP5SOpl7s4P3UTXtQ?e=IXe0Va))
+| Full pipeline walkthrough (preprocessing → projection → analysis) | [Watch the demo on One Drive]((https://unigeit-my.sharepoint.com/:f:/g/personal/s7200337_studenti_unige_it/Elfhpmds5W5Lr82IdOkHvSMBx_1QOjP5SOpl7s4P3UTXtQ?e=IXe0Va))
 
 ---
 
