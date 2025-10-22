@@ -19,6 +19,9 @@ function [mean_epi_stripped_path, epi_stripped_path] = skullstrip_epi( ...
 %   consistent mask is used voxelwise across all timepoints to avoid time-varying
 %   censoring artifacts.
 %
+% Author: Nagham Nessim
+% University of Geneva, 2025
+
 
 p = inputParser;
 addParameter(p,'SaveFigures',false,@islogical);
@@ -218,3 +221,4 @@ catch ME
     warning(ME.identifier, 'Step 5 overlay figure not saved: %s', ME.message);
 end
 end
+
