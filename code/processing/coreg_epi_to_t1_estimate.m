@@ -13,10 +13,8 @@ function realigned_path_out = coreg_epi_to_t1_estimate(mean_t1_stripped, mean_ep
 %   headers of both the mean EPI and the whole 4D EPI series, avoiding an extra interpolation now
 %   so reslicing happens only once later in the pipeline.
 %
-% Reference:
-%   - NMI for multi-modal registration (robust T1↔EPI): Studholme et al., Pattern Recogn 1999.
-%   - MI-based multi-modality registration (foundational): Maes et al., IEEE TMI 1997.
-%   - One-interpolation principle (delay reslicing to minimize blur): Maintz & Viergever, Med Image Anal 1998 (review).
+% Author: Nagham Nessim
+% University of Geneva, 2025
 
 
     % Ensure char (SPM prefers char arrays)
@@ -49,3 +47,4 @@ function realigned_path_out = coreg_epi_to_t1_estimate(mean_t1_stripped, mean_ep
     % Return same path (data unchanged, headers updated)
     realigned_path_out = realigned_path;
 end
+
