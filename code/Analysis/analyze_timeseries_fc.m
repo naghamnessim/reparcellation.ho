@@ -19,7 +19,8 @@ function [roi_timeseries, roi_ts_z, fc_matrix, roi_labels] = analyze_timeseries_
 %   Extract parcel-wise time series from an atlas-aligned fMRI (MNI space) by averaging
 %   voxel signals within each ROI, then compute an ROI×ROI Pearson correlation matrix
 %   as a simple functional connectivity (FC) estimate.
-
+% Author: Nagham Nessim
+% University of Geneva, 2025
 
 p = inputParser;
 addParameter(p,'SaveFigures',false,@islogical);
@@ -154,3 +155,4 @@ if opt.SaveFigures && ~isempty(opt.SaveDir)
     fprintf('FC Matrix Saved in: %s\n          %s\n', png_out, fig_out);
 end
 end
+
