@@ -11,10 +11,9 @@ function resliced_mask_path = reslice_t1mask_to_epi(mean_epi_path, brain_mask_pa
 %   coreg.write. This uses nearest-neighbor (NN) interpolation to preserve
 %   discrete labels.
 %
-% Reference:
-%   - SPM12 Manual — Coregistration: Write (reslicing using current header transforms).
-%   - Interpolation & label maps: Thévenaz, Blu & Unser (2000), IEEE TMI 19(7):739–758 — NN preserves categorical labels.
-%   - One-interpolation principle: Maintz & Viergever (1998), Med Image Anal 2(1):1–36 — minimize resampling to avoid blur.
+%
+% Author: Nagham Nessim
+% University of Geneva, 2025
 
 % Reslice a T1-space brain mask onto the mean-EPI grid (NN), writes 'r*' file.
 
@@ -40,4 +39,5 @@ function resliced_mask_path = reslice_t1mask_to_epi(mean_epi_path, brain_mask_pa
         matlabbatch{1}.spm.spatial.coreg.write.roptions.prefix     = 'r';                          % Prefix for output files
         spm_jobman('run', matlabbatch);
     end
+
 end
