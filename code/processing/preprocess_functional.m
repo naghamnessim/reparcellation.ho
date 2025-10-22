@@ -10,7 +10,8 @@ function [realigned_path, mean_epi_path, rp_path] = preprocess_functional(func_n
 % Purpose:
 %   Perform slice-timing correction (STC) followed by rigid-body motion correction (realignment)
 %   in SPM for a 4D fMRI time series, and return the key derivative paths for downstream steps.
-%
+% Author: Nagham Nessim
+% University of Geneva, 2025
 
 p = inputParser;
 addParameter(p,'SaveFigures',false,@islogical);
@@ -196,3 +197,4 @@ if opt.SaveFigures && isfile(rp_path)
 end
 
 end
+
