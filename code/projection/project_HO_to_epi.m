@@ -10,6 +10,8 @@ function ho_resliced_path = project_HO_to_epi(warped_epi_path, ho_gz)
 %   Reslice (grid match only) the Harvard–Oxford atlas onto the MNI-warped EPI grid using
 %   SPM’s Coreg:Write. Uses nearest-neighbor interpolation to preserve parcel labels.
 %
+% Author: Nagham Nessim
+% University of Geneva, 2025
    
     ho_atlas_path  = ho_gz;
     assert(isfile(ho_atlas_path), 'HO atlas not found: %s', ho_atlas_path);
@@ -45,3 +47,4 @@ function ho_resliced_path = project_HO_to_epi(warped_epi_path, ho_gz)
     assert(isequal(szE, szH), 'Grid mismatch after reslice: EPI [%s] vs HO [%s].', ...      % check sizes match
            num2str(szE), num2str(szH));
 end
+
