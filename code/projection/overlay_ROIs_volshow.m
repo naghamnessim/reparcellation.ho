@@ -12,7 +12,9 @@ function overlay_ROIs_volshow(func_or_struct_path, atlas_path, volume_index)
 %   Uses robust window/level via percentiles and gentle gamma to enhance visibility, and crops to the
 %   ROI bounding box for a focused view and faster rendering. The atlas is shown with nearest-neighbor
 %   categorical overlay inside volumeViewer.
-
+%
+% Author: Nagham Nessim
+% University of Geneva, 2025
 
     if nargin < 3, volume_index = 60; end
 
@@ -86,3 +88,4 @@ function overlay_ROIs_volshow(func_or_struct_path, atlas_path, volume_index)
               'volumeViewer failed: %s. Ensure you have the Image Processing Toolbox (volumeViewer).', ME.message);
     end
 end
+
