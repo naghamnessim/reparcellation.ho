@@ -14,7 +14,7 @@ function [warped_epi_path, rT1_on_wEPI] = warp_epi_to_mni(epi_stripped_path, mea
 %
 %
 % Author: Nagham Nessim
-% University of Geneva, 2025
+% University of Genova, 2025
 
 
     % Normalize inputs & check for files' existence
