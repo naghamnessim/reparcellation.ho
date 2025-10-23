@@ -14,7 +14,7 @@ function overlay_ROIs_volshow(func_or_struct_path, atlas_path, volume_index)
 %   categorical overlay inside volumeViewer.
 %
 % Author: Nagham Nessim
-% University of Geneva, 2025
+% University of Genova, 2025
 
     if nargin < 3, volume_index = 60; end
 
