@@ -13,7 +13,7 @@ function [y_field_path, iy_field_path] = normalize_T1_to_mni(mean_t1_stripped_pa
 %   labels into subject space later with a single resampling.
 %
 % Author: Nagham Nessim
-% University of Geneva, 2025
+% University of Genova, 2025
 
 
 spm('defaults', 'FMRI');
