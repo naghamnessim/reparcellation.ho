@@ -1,10 +1,10 @@
-# 🎥 Demonstration Videos — Re-parcellation Pipeline
+# Demonstration Videos — Re-parcellation Pipeline
 
 These videos demonstrate how to run the full MATLAB pipeline for the re-parcellation of the **OpenNeuro ds000224** dataset according to the **Harvard–Oxford (HO)** atlas.
 
 ---
 
-## 🔗 Video Link
+## Video Link
 
 | Description | Link |
 |--------------|------|
@@ -12,7 +12,7 @@ These videos demonstrate how to run the full MATLAB pipeline for the re-parcella
 
 ---
 
-## 🧠 What the Video Shows
+## What the Video Shows
 
 - Opening and configuring the `MainPipeline.mlx` script  
 - Step-by-step preprocessing (slice timing, motion correction, skull stripping)  
@@ -25,7 +25,7 @@ These videos demonstrate how to run the full MATLAB pipeline for the re-parcella
 
 ---
 
-## 🧾 Notes
+## Notes
 
 - The video corresponds to the current repository version and reflects the most recent preprocessing and projection pipeline.  
 - The code shown matches the scripts located in the [`code/`](../code/) directory.
