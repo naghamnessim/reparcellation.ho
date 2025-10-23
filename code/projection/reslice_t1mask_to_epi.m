@@ -13,7 +13,7 @@ function resliced_mask_path = reslice_t1mask_to_epi(mean_epi_path, brain_mask_pa
 %
 %
 % Author: Nagham Nessim
-% University of Geneva, 2025
+% University of Genova, 2025
 
 % Reslice a T1-space brain mask onto the mean-EPI grid (NN), writes 'r*' file.
 
