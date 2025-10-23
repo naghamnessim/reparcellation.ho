@@ -20,7 +20,7 @@ function [mean_epi_stripped_path, epi_stripped_path] = skullstrip_epi( ...
 %   censoring artifacts.
 %
 % Author: Nagham Nessim
-% University of Geneva, 2025
+% University of Genova, 2025
 
 
 p = inputParser;
