@@ -20,7 +20,7 @@ function [roi_timeseries, roi_ts_z, fc_matrix, roi_labels] = analyze_timeseries_
 %   voxel signals within each ROI, then compute an ROI×ROI Pearson correlation matrix
 %   as a simple functional connectivity (FC) estimate.
 % Author: Nagham Nessim
-% University of Geneva, 2025
+% University of Genova, 2025
 
 p = inputParser;
 addParameter(p,'SaveFigures',false,@islogical);
