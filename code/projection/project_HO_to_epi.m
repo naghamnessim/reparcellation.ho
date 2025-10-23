@@ -11,7 +11,7 @@ function ho_resliced_path = project_HO_to_epi(warped_epi_path, ho_gz)
 %   SPM’s Coreg:Write. Uses nearest-neighbor interpolation to preserve parcel labels.
 %
 % Author: Nagham Nessim
-% University of Geneva, 2025
+% University of Genova, 2025
    
     ho_atlas_path  = ho_gz;
     assert(isfile(ho_atlas_path), 'HO atlas not found: %s', ho_atlas_path);
