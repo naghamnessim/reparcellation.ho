@@ -14,7 +14,7 @@ function realigned_path_out = coreg_epi_to_t1_estimate(mean_t1_stripped, mean_ep
 %   so reslicing happens only once later in the pipeline.
 %
 % Author: Nagham Nessim
-% University of Geneva, 2025
+% University of Genova, 2025
 
 
     % Ensure char (SPM prefers char arrays)
