@@ -18,7 +18,7 @@ function [mean_t1_stripped, brain_mask_path] = skullstrip_T1(t1_path_1, t1_path_
 %   of two T1 runs, and generate QC figures.
 %
 % Author: Nagham Nessim
-% University of Geneva, 2025
+% University of Genova, 2025
 
 
 p = inputParser;                                                                     
