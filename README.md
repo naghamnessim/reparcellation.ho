@@ -61,4 +61,58 @@ The complete workflow performs:
 
    Place it inside your project directory.
 
-2. **Run the Pipeline as illustrated in the video demo**
+2. **Run the Pipeline as illustrated in the video demo [open here](docs/VIDEOS_LINK.md)**
+
+---
+
+## Demo Results on sub-MSC01 (ses-func02) using the memorywords task
+
+<!-- 1) Underlays -->
+<p align="center">
+  <img src="docs/Example on Results (sub-MSC01)/HO_EPI Underlay.png" width="48%">
+  <img src="docs/Example on Results (sub-MSC01)/HO_T1 Underlay.png" width="48%">
+</p>
+
+*Figure 1. Harvard–Oxford atlas underlay views in native EPI and T1 spaces.*
+
+<!-- 2) Preprocessing check (mean EPI before/after skull strip) -->
+<p align="center">
+  <img src="docs/Example on Results (sub-MSC01)/step5_mean_epi_pre_strip.png" width="48%">
+  <img src="docs/Example on Results (sub-MSC01)/step5_mean_epi_post_strip.png" width="48%">
+</p>
+
+*Figure 2. Mean EPI before vs. after skull stripping.*
+
+<!-- 3) Atlas overlay on mean EPI -->
+<p align="center">
+  <img src="docs/Example on Results (sub-MSC01)/step5_overlay.png" width="70%">
+</p>
+
+*Figure 3. Harvard–Oxford atlas projected to native EPI (overlay on mean EPI).*
+
+<!-- 4) Motion parameters (if you want to show QC) -->
+<!-- Note: filename contains an apostrophe; see note below. -->
+<p align="center">
+  <img src="docs/Example on Results (sub-MSC01)/step1_motion_params'.png" width="70%">
+</p>
+
+*Figure 4. Motion parameters (QC).*
+
+<!-- 5) Functional connectivity -->
+<p align="center">
+  <img src="docs/Example on Results (sub-MSC01)/step9_fc_matrix.png" width="70%">
+</p>
+
+*Figure 5. Parcel-wise functional connectivity matrix.*
+
+<!-- 6) ROI time series overview -->
+<p align="center">
+  <img src="docs/Example on Results (sub-MSC01)/step9_roi_timeseries_overview.png" width="70%">
+</p>
+
+*Figure 6. ROI time-series overview (z-scored).*
+
+<!-- 7) High-FC pairs table link (optional) -->
+**Data table:** [Top high-correlation ROI pairs (`step10_high_fc_pairs.csv`)](docs/Example%20on%20Results%20%28sub-MSC01%29/step10_high_fc_pairs.csv)
+
+---
