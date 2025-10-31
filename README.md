@@ -1,4 +1,9 @@
 # Re-parcellation of ds000224 fMRI Dataset Using the Harvard–Oxford Atlas
+![MATLAB](https://img.shields.io/badge/Language-MATLAB-blue)
+![SPM12](https://img.shields.io/badge/Tool-SPM12-lightgrey)
+![FSL](https://img.shields.io/badge/Tool-FSL-lightgrey)
+![Dataset](https://img.shields.io/badge/Data-ds000224-green)
+![Atlas](https://img.shields.io/badge/Atlas-Harvard–Oxford-orange)
 
 This repository contains MATLAB code, scripts, and documentation for re-parcellating
 the **OpenNeuro ds000224** fMRI dataset according to the **Harvard–Oxford (HO) atlas**.
