@@ -1,0 +1,119 @@
+ROI_1,Label_1,ROI_2,Label_2,Correlation
+4,"Middle Frontal Gyrus",1,"Frontal Pole",0.788775713577078
+7,"Precentral Gyrus",1,"Frontal Pole",0.702920705504353
+28,"Paracingulate Gyrus",1,"Frontal Pole",0.767309192788083
+33,"Frontal Orbital Cortex",1,"Frontal Pole",0.742867093844823
+3,"Superior Frontal Gyrus",2,"Insular Cortex",0.710170565923768
+8,"Temporal Pole",2,"Insular Cortex",0.750983414590488
+41,"Frontal Operculum Cortex",2,"Insular Cortex",0.740622709425132
+45,"Heschl's Gyrus (includes H1 and H2)",2,"Insular Cortex",0.710776485752758
+2,"Insular Cortex",3,"Superior Frontal Gyrus",0.710170565923768
+7,"Precentral Gyrus",3,"Superior Frontal Gyrus",0.788608136086929
+26,"Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)",3,"Superior Frontal Gyrus",0.77177375387335
+28,"Paracingulate Gyrus",3,"Superior Frontal Gyrus",0.84089566202781
+1,"Frontal Pole",4,"Middle Frontal Gyrus",0.788775713577078
+6,"Inferior Frontal Gyrus, pars opercularis",5,"Inferior Frontal Gyrus, pars triangularis",0.732622246686385
+5,"Inferior Frontal Gyrus, pars triangularis",6,"Inferior Frontal Gyrus, pars opercularis",0.732622246686385
+1,"Frontal Pole",7,"Precentral Gyrus",0.702920705504353
+3,"Superior Frontal Gyrus",7,"Precentral Gyrus",0.788608136086929
+17,"Postcentral Gyrus",7,"Precentral Gyrus",0.86111320158279
+18,"Superior Parietal Lobule",7,"Precentral Gyrus",0.810471467838959
+26,"Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)",7,"Precentral Gyrus",0.81982541715225
+28,"Paracingulate Gyrus",7,"Precentral Gyrus",0.783591324684338
+44,"Planum Polare",7,"Precentral Gyrus",0.709532988591402
+2,"Insular Cortex",8,"Temporal Pole",0.750983414590488
+11,"Middle Temporal Gyrus, anterior division",8,"Temporal Pole",0.751237109014145
+33,"Frontal Orbital Cortex",8,"Temporal Pole",0.738000491928452
+34,"Parahippocampal Gyrus, anterior division",8,"Temporal Pole",0.740725653757351
+44,"Planum Polare",8,"Temporal Pole",0.764239165028925
+10,"Superior Temporal Gyrus, posterior division",9,"Superior Temporal Gyrus, anterior division",0.72276084890275
+17,"Postcentral Gyrus",9,"Superior Temporal Gyrus, anterior division",0.742301646709864
+25,"Frontal Medial Cortex",9,"Superior Temporal Gyrus, anterior division",0.706670758479864
+27,"Subcallosal Cortex",9,"Superior Temporal Gyrus, anterior division",0.744205112171216
+33,"Frontal Orbital Cortex",9,"Superior Temporal Gyrus, anterior division",0.70720854933688
+34,"Parahippocampal Gyrus, anterior division",9,"Superior Temporal Gyrus, anterior division",0.710822144409258
+42,"Central Opercular Cortex",9,"Superior Temporal Gyrus, anterior division",0.718686100790097
+9,"Superior Temporal Gyrus, anterior division",10,"Superior Temporal Gyrus, posterior division",0.72276084890275
+46,"Planum Temporale",10,"Superior Temporal Gyrus, posterior division",0.757377689446888
+8,"Temporal Pole",11,"Middle Temporal Gyrus, anterior division",0.751237109014145
+13,"Middle Temporal Gyrus, temporooccipital part",12,"Middle Temporal Gyrus, posterior division",0.752229576066568
+12,"Middle Temporal Gyrus, posterior division",13,"Middle Temporal Gyrus, temporooccipital part",0.752229576066568
+20,"Supramarginal Gyrus, posterior division",13,"Middle Temporal Gyrus, temporooccipital part",0.740513946960213
+24,"Intracalcarine Cortex",13,"Middle Temporal Gyrus, temporooccipital part",0.718636505584892
+47,"Supracalcarine Cortex",13,"Middle Temporal Gyrus, temporooccipital part",0.702984062676347
+20,"Supramarginal Gyrus, posterior division",16,"Inferior Temporal Gyrus, temporooccipital part",0.707745981462489
+22,"Lateral Occipital Cortex, superior division",16,"Inferior Temporal Gyrus, temporooccipital part",0.792499780523808
+7,"Precentral Gyrus",17,"Postcentral Gyrus",0.86111320158279
+9,"Superior Temporal Gyrus, anterior division",17,"Postcentral Gyrus",0.742301646709864
+18,"Superior Parietal Lobule",17,"Postcentral Gyrus",0.803387877415982
+33,"Frontal Orbital Cortex",17,"Postcentral Gyrus",0.706457090575352
+36,"Lingual Gyrus",17,"Postcentral Gyrus",0.730099173921716
+7,"Precentral Gyrus",18,"Superior Parietal Lobule",0.810471467838959
+17,"Postcentral Gyrus",18,"Superior Parietal Lobule",0.803387877415982
+20,"Supramarginal Gyrus, posterior division",19,"Supramarginal Gyrus, anterior division",0.767207054599298
+13,"Middle Temporal Gyrus, temporooccipital part",20,"Supramarginal Gyrus, posterior division",0.740513946960213
+16,"Inferior Temporal Gyrus, temporooccipital part",20,"Supramarginal Gyrus, posterior division",0.707745981462489
+19,"Supramarginal Gyrus, anterior division",20,"Supramarginal Gyrus, posterior division",0.767207054599298
+21,"Angular Gyrus",20,"Supramarginal Gyrus, posterior division",0.796899696005095
+22,"Lateral Occipital Cortex, superior division",20,"Supramarginal Gyrus, posterior division",0.746698247022556
+20,"Supramarginal Gyrus, posterior division",21,"Angular Gyrus",0.796899696005095
+22,"Lateral Occipital Cortex, superior division",21,"Angular Gyrus",0.723431512657667
+16,"Inferior Temporal Gyrus, temporooccipital part",22,"Lateral Occipital Cortex, superior division",0.792499780523808
+20,"Supramarginal Gyrus, posterior division",22,"Lateral Occipital Cortex, superior division",0.746698247022556
+21,"Angular Gyrus",22,"Lateral Occipital Cortex, superior division",0.723431512657667
+31,"Precuneous Cortex",22,"Lateral Occipital Cortex, superior division",0.74769284060191
+40,"Occipital Fusiform Gyrus",23,"Lateral Occipital Cortex, inferior division",0.71169466847162
+48,"Occipital Pole",23,"Lateral Occipital Cortex, inferior division",0.8728987677116
+13,"Middle Temporal Gyrus, temporooccipital part",24,"Intracalcarine Cortex",0.718636505584892
+47,"Supracalcarine Cortex",24,"Intracalcarine Cortex",0.84332675995827
+48,"Occipital Pole",24,"Intracalcarine Cortex",0.711904090119954
+9,"Superior Temporal Gyrus, anterior division",25,"Frontal Medial Cortex",0.706670758479864
+27,"Subcallosal Cortex",25,"Frontal Medial Cortex",0.943875694218044
+33,"Frontal Orbital Cortex",25,"Frontal Medial Cortex",0.736417557062146
+3,"Superior Frontal Gyrus",26,"Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)",0.77177375387335
+7,"Precentral Gyrus",26,"Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)",0.81982541715225
+28,"Paracingulate Gyrus",26,"Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)",0.719058663525925
+9,"Superior Temporal Gyrus, anterior division",27,"Subcallosal Cortex",0.744205112171216
+25,"Frontal Medial Cortex",27,"Subcallosal Cortex",0.943875694218044
+33,"Frontal Orbital Cortex",27,"Subcallosal Cortex",0.754155274057642
+1,"Frontal Pole",28,"Paracingulate Gyrus",0.767309192788083
+3,"Superior Frontal Gyrus",28,"Paracingulate Gyrus",0.84089566202781
+7,"Precentral Gyrus",28,"Paracingulate Gyrus",0.783591324684338
+26,"Juxtapositional Lobule Cortex (formerly Supplementary Motor Cortex)",28,"Paracingulate Gyrus",0.719058663525925
+29,"Cingulate Gyrus, anterior division",28,"Paracingulate Gyrus",0.726224141183029
+28,"Paracingulate Gyrus",29,"Cingulate Gyrus, anterior division",0.726224141183029
+31,"Precuneous Cortex",30,"Cingulate Gyrus, posterior division",0.863573431914144
+22,"Lateral Occipital Cortex, superior division",31,"Precuneous Cortex",0.74769284060191
+30,"Cingulate Gyrus, posterior division",31,"Precuneous Cortex",0.863573431914144
+32,"Cuneal Cortex",31,"Precuneous Cortex",0.702931783795175
+31,"Precuneous Cortex",32,"Cuneal Cortex",0.702931783795175
+47,"Supracalcarine Cortex",32,"Cuneal Cortex",0.78278574239492
+1,"Frontal Pole",33,"Frontal Orbital Cortex",0.742867093844823
+8,"Temporal Pole",33,"Frontal Orbital Cortex",0.738000491928452
+9,"Superior Temporal Gyrus, anterior division",33,"Frontal Orbital Cortex",0.70720854933688
+17,"Postcentral Gyrus",33,"Frontal Orbital Cortex",0.706457090575352
+25,"Frontal Medial Cortex",33,"Frontal Orbital Cortex",0.736417557062146
+27,"Subcallosal Cortex",33,"Frontal Orbital Cortex",0.754155274057642
+8,"Temporal Pole",34,"Parahippocampal Gyrus, anterior division",0.740725653757351
+9,"Superior Temporal Gyrus, anterior division",34,"Parahippocampal Gyrus, anterior division",0.710822144409258
+36,"Lingual Gyrus",35,"Parahippocampal Gyrus, posterior division",0.821604975345799
+17,"Postcentral Gyrus",36,"Lingual Gyrus",0.730099173921716
+35,"Parahippocampal Gyrus, posterior division",36,"Lingual Gyrus",0.821604975345799
+23,"Lateral Occipital Cortex, inferior division",40,"Occipital Fusiform Gyrus",0.71169466847162
+2,"Insular Cortex",41,"Frontal Operculum Cortex",0.740622709425132
+9,"Superior Temporal Gyrus, anterior division",42,"Central Opercular Cortex",0.718686100790097
+45,"Heschl's Gyrus (includes H1 and H2)",42,"Central Opercular Cortex",0.721906080521995
+46,"Planum Temporale",42,"Central Opercular Cortex",0.801441672104471
+7,"Precentral Gyrus",44,"Planum Polare",0.709532988591402
+8,"Temporal Pole",44,"Planum Polare",0.764239165028925
+2,"Insular Cortex",45,"Heschl's Gyrus (includes H1 and H2)",0.710776485752758
+42,"Central Opercular Cortex",45,"Heschl's Gyrus (includes H1 and H2)",0.721906080521995
+46,"Planum Temporale",45,"Heschl's Gyrus (includes H1 and H2)",0.833802219852233
+10,"Superior Temporal Gyrus, posterior division",46,"Planum Temporale",0.757377689446888
+42,"Central Opercular Cortex",46,"Planum Temporale",0.801441672104471
+45,"Heschl's Gyrus (includes H1 and H2)",46,"Planum Temporale",0.833802219852233
+13,"Middle Temporal Gyrus, temporooccipital part",47,"Supracalcarine Cortex",0.702984062676347
+24,"Intracalcarine Cortex",47,"Supracalcarine Cortex",0.84332675995827
+32,"Cuneal Cortex",47,"Supracalcarine Cortex",0.78278574239492
+23,"Lateral Occipital Cortex, inferior division",48,"Occipital Pole",0.8728987677116
+24,"Intracalcarine Cortex",48,"Occipital Pole",0.711904090119954
