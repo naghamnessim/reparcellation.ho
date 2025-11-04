@@ -93,7 +93,7 @@ The complete workflow performs:
   <img src="docs/Example on Results (sub-MSC01)/step5_overlay.png" width="70%">
 </p>
 
-*Figure 3. Harvard–Oxford atlas projected to native EPI (overlay on mean EPI).*
+*Figure 3. T1 overlaid on functional EPI to confirm registration (overlay on mean EPI).*
 
 <!-- 4) Motion parameters (if you want to show QC) -->
 <!-- Note: filename contains an apostrophe; see note below. -->
@@ -101,7 +101,7 @@ The complete workflow performs:
   <img src="docs/Example on Results (sub-MSC01)/step1_motion_params'.png" width="70%">
 </p>
 
-*Figure 4. Motion parameters (QC).*
+*Figure 4. Motion parameters computed during realignment (QC).*
 
 <!-- 5) Functional connectivity -->
 <p align="center">
